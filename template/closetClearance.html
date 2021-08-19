@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closet Clearance</title>
+    <link rel="stylesheet" href="cc.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <!-- <img src="download.jpg" alt="logo" width="125px" /> -->
+          <h1>CLOSET CLEARANCE</h1>
+        </div>
+        <nav>
+          <ul id="menu_items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Signin</a></li>
+          </ul>
+        </nav>
+        <img
+          src="cart.png"
+          alt="cart_image"
+          width="30px"
+          height="30px"
+        />
+        <img src="menu.png" class="menu_icon" onclick="menutoggle()"/>
+      </div>
+      <div class="row">
+        <div class="col2">
+          <h1>
+            Its Time For A <br />
+            Closet Change!
+          </h1>
+          <a href="#" class="btn">Explore</a>
+        </div>
+        <div class="col2">
+          <img src="display1.jpg" alt="display image" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- --------------------FEATURED---------------- -->
+
+    <div class="categories">
+      <div class="small_container">
+        <div class="row">
+          <div class="col3">
+            <img src="category1.jpg" alt="" />
+          </div>
+          <div class="col3">
+            <img src="category2.jpg" alt="" />
+          </div>
+          <div class="col3">
+            <img src="category3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------FEATURED PRODUCTS---------------- -->
+
+    <div class="small_container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="image1.jpg" alt="">
+                <h4>White Kurta</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377 2,499</p>
+            </div>
+            <div class="col4">
+                <img src="image2.jpg" alt="">
+                <h4>Red Printed Kurta</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8377 1,999</p>
+            </div>
+            <div class="col4">
+                <img src="image3.jpg" alt="">
+                <h4>White Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8377 1,499</p>
+            </div>
+            <div class="col4">
+                <img src="image4.jpg" alt="">
+                <h4>White Printed Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377 999</p>
+            </div>
+        </div>
+
+<!-- -------------------New Releases--------------- -->
+
+        <h2 class="title">New Releases</h2>
+        <div class="row">
+          <div class="col4">
+              <img src="new1.jpg" alt="">
+              <h4>White Kurta</h4>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>&#8377 2,499</p>
+          </div>
+          <div class="col4">
+              <img src="new2.jpg" alt="">
+              <h4>Red Printed Kurta</h4>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>&#8377 1,999</p>
+          </div>
+          <div class="col4">
+              <img src="new3.jpg" alt="">
+              <h4>White Dress</h4>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>&#8377 1,499</p>
+          </div>
+          <div class="col4">
+              <img src="new4.jpg" alt="">
+              <h4>White Printed Dress</h4>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>&#8377 999</p>
+          </div> 
+      </div>
+      <div class="row">
+        <div class="col4">
+            <img src="new5.jpg" alt="">
+            <h4>White Kurta</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>&#8377 999</p>
+        </div>
+        <div class="col4">
+            <img src="new6.jpg" alt="">
+            <h4>Red Printed Kurta</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>&#8377 899</p>
+        </div>
+        <div class="col4">
+            <img src="new7.jpg" alt="">
+            <h4>White Dress</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>&#8377 1699</p>
+        </div>
+        <div class="col4">
+            <img src="new8.jpg" alt="">
+            <h4>White Printed Dress</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>&#8377 799</p>
+        </div> 
+    </div>
+    </div>
+
+    <!-- --------Deals Of The Day------------ -->
+
+    <div class="offer">
+      <div class="small_container">
+        <div class="row">
+          <div class="col2">
+            <img src="offer.jpg" alt="offer_img" class="offer_img">
+          </div>
+          <div class="col2">
+            <p>Happy Holi Days</p>
+            <h1>Upto 70% off</h1>
+            <small>Be Bolder And Brighter</small>
+            <p>
+              <a href="#" class="btn">Explore</a>
+            </p> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------testimonial-------------- -->
+
+    <div class="testimonial">
+      <div class="small_container">
+        <div class="row">
+          <div class="col3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Impsum has been the
+              industry's standard dummy text ever</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <img src="user1.png" alt="user_image">
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Impsum has been the
+              industry's standard dummy text ever</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <img src="user2.png" alt="user_image">
+            <h3>Mabel Joe</h3>
+          </div>
+          <div class="col3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Impsum has been the
+              industry's standard dummy text ever</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <img src="user3.png" alt="user_image">
+            <h3>Mike Smith</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------brands---------- -->
+    <div class="brands">
+      <div class="small_container">
+        <div class="row">
+          <div class="col5">
+            <img src="brand1.jpg" alt="brand_image">
+          </div>
+          <div class="col5">
+            <img src="brand2.jpg" alt="brand_image">
+          </div>
+          <div class="col5">
+            <img src="brand3.jpg" alt="brand_image">
+          </div>
+          <div class="col5">
+            <img src="brand4.jpg" alt="brand_image">
+          </div>
+          <div class="col5">
+            <img src="brand5.jpg" alt="brand_image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------footer---------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer_col1">
+            <h3>Download App</h3>
+            <p>Experience app on mobile</p>
+            <div class="app_logo">
+              <img src="logo1.png" alt="app_image">
+              <img src="logo2.png" alt="app_image">
+            </div>
+          </div>
+          <div class="footer_col2">
+            <h2>CLOSET CLEARANCE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+              Quibusdam sit dignissimos facilis, modi voluptatem</p>
+          </div>
+          <div class="footer_col3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Contact Us</li>
+              <li>FAQ</li>
+              <li>T&C</li>
+              <li>Terms Of Use</li>
+            </ul>
+          </div>
+          <div class="footer_col4">
+            <h3>Social</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">&#169; Copyright 2021 Closet Clearance</p>
+      </div>
+    </div>
+
+    <!-- ----js for toggle menu----- -->
+    <script>
+      var menu_items = document.getElementById("menu_items")
+
+      menu_items.style.maxHeight = "0px";
+
+      function menutoggle(){
+        if(menu_items.style.maxHeight == "0px"){
+          menu_items.style.maxHeight = "200px";
+        }
+        else{
+          menu_items.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
+

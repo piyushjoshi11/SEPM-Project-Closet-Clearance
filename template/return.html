@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Orders</title>
+    <link rel="stylesheet" href="cc.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <!-- <img src="download.jpg" alt="logo" width="125px" /> -->
+          <h1>CLOSET CLEARANCE</h1>
+        </div>
+        <nav>
+          <ul id="menu_items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- <li><a href="#">Signin</a></li> -->
+          </ul>
+        </nav>
+        <img
+          src="cart.png"
+          alt="cart_image"
+          width="30px"
+          height="30px"
+        /> 
+        <img src="menu.png" class="menu_icon" onclick="menutoggle()"/>
+      </div>
+    </div>
+
+    <!-- ------------return---------- -->
+
+    <div class="small_container">
+        <div class="row row2">
+          <h2>Return Item</h2>
+          <h3>Select item to return</h3>
+        </div>
+      </div>
+
+      <div class="small_container cartPage">
+        <table>
+            <tr>
+                <th>Orders</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cartInfo">
+                        <img src="cartImg/buy2.jpg" alt="">
+                        <div>
+                            <p>Yellow Netted Saree</p>
+                            <small>Price: &#8377 5,099</small>
+                            <br>
+                            <a href="#">Return</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input id="qty" type="number" value="1">
+                </td>
+                <td>&#8377 5,099</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cartInfo">
+                        <img src="cartImg/buy1.jpg" alt="">
+                        <div>
+                            <p>Black Saree</p>
+                            <small>Price: &#8377 4,399</small>
+                            <br>
+                            <a href="#">Return</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input id="qty" type="number" value="1">
+                </td>
+                <td>&#8377 4,399</td>
+              </tr>
+            <tr>
+                <td>
+                    <div class="cartInfo">
+                        <img src="cartImg/buy3.jpg" alt="">
+                        <div>
+                            <p>Long Frock</p>
+                            <small>Price: &#8377 4,999</small>
+                            <br>
+                            <a href="#">Return</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input id="qty" type="number" value="1">
+                </td>
+                <td>&#8377 4,999</td>
+            </tr>
+        </table>
+        </div>
+
+    <!-- ----------------related items suggestions----------- -->
+
+    <!-- ---------title---------- -->
+
+    <div class="small_container">
+        <div class="row row2">
+          <h2>Related Products</h2>
+          <p>view more</p>
+        </div>
+      </div>
+  
+      <!-- ---------products------- -->
+      \
+      <div class="small_container">
+         
+           
+          <div class="row">
+              <div class="col4">
+                  <img src="photo1.jpg" alt="">
+                  <h4>Designer Saree</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>&#8377 2,499</p>
+              </div>
+              <div class="col4">
+                  <img src="photo2.jpg" alt="">
+                  <h4>Designer Lehnga</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <p>&#8377 1,999</p>
+              </div>
+              <div class="col4">
+                  <img src="photo3.jpg" alt="">
+                  <h4>Saree</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <p>&#8377 1,499</p>
+              </div>
+              <div class="col4">
+                  <img src="photo4.jpg" alt="">
+                  <h4>White ‎Kanjeevaram Saree</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>&#8377 3,999</p>
+              </div>
+          </div>
+          
+      </div>
+
+
+    <!-- -------------footer---------- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer_col1">
+            <h3>Download App</h3>
+            <p>Experience app on mobile</p>
+            <div class="app_logo">
+              <img src="logo1.png" alt="app_image">
+              <img src="logo2.png" alt="app_image">
+            </div>
+          </div>
+          <div class="footer_col2">
+            <h2>CLOSET CLEARANCE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+              Quibusdam sit dignissimos facilis, modi voluptatem</p>
+          </div>
+          <div class="footer_col3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Contact Us</li>
+              <li>FAQ</li>
+              <li>T&C</li>
+              <li>Terms Of Use</li>
+            </ul>
+          </div>
+          <div class="footer_col4">
+            <h3>Social</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">&#169; Copyright 2021 Closet Clearance</p>
+      </div>
+    </div>
+
+    <!-- ----js for toggle menu----- -->
+    <script>
+      var menu_items = document.getElementById("menu_items")
+
+      menu_items.style.maxHeight = "0px";
+
+      function menutoggle(){
+        if(menu_items.style.maxHeight == "0px"){
+          menu_items.style.maxHeight = "200px";
+        }
+        else{
+          menu_items.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <script src="cart.js"></script>
+
+  </body>
+</html>
+
